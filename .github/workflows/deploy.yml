@@ -29,7 +29,6 @@ jobs:
     - name: Install Plugins
       run: |
         cargo install mdbook-admonish
-        mdbook install
         mdbook-admonish install
     - name: Deploy GitHub Pages
       run: |
